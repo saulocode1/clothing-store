@@ -1,0 +1,28 @@
+.main-header {
+    height: 3.125rem;
+    padding: 0rem 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1.5px var(--base-color-first) solid;
+}
+
+.main-header .menu, .main-header .shop {
+    font-size: 24px;
+    color: var(--base-color-third);
+}
+
+.main-header button {
+    padding: 0;
+    display: inline-block;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.main-header .logo2 {
+    height: auto;
+    width: 100px;
+}
