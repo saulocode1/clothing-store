@@ -1,10 +1,8 @@
 :root {
-    --hue:341;
-    
-    --base-color-first: hsl(var(--hue) 93%   94%);
+    --hue: 341;
+
+    --base-color-first: hsl(var(--hue) 93% 94%);
     --base-color-second: hsl(var(--hue), 81%, 87%);
     --base-color-third: hsl(var(--hue), 89%, 79%);
     --base-color-fourth: hsl(var(--hue), 82%, 71%);
-
-    --icon-color: hsl(216, 5%, 60%);
 }

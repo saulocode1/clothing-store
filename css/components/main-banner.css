@@ -1,0 +1,36 @@
+.main-banner {
+    height: 100%;
+    padding: 50px 0;
+    background-image: url(../../assets/banner.jpg);
+    background-size: cover;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+}
+
+.main-banner .title {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.main-banner .subtitle {
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.main-banner .wrapper {
+    display: grid;
+    padding-left: 25px;
+    text-align: left;
+    gap: 1rem;
+}
+
+.main-banner .line {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 100px;
+}
