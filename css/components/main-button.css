@@ -1,0 +1,9 @@
+.main-button {
+    padding: 14px 26px;
+    background-color: var(--base-color-third);
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.1875rem;
+    color: var(--base-color-first);
+    border: 0;
+}

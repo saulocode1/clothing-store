@@ -5,13 +5,13 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-bottom: 1.5px var(--base-color-first) solid;
+    border-bottom: 1.5px var(--base-color-second) solid;
 }
 
 .main-header .menu,
 .main-header .shop {
-    font-size: 24px;
-    color: var(--base-color-third);
+    font-size: 1.5rem;
+    color: var(--base-color-fourth);
 }
 
 .main-header button {
