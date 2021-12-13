@@ -10,6 +10,7 @@
 
 .main-header .menu,
 .main-header .shop {
+    padding: 0 0.313rem;
     font-size: 1.5rem;
     color: var(--base-color-fourth);
 }
