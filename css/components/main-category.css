@@ -11,3 +11,9 @@
     width: 200px;
     object-fit: cover;
 }
+
+.main-category .category {
+    border: none;
+    height: auto;
+    width: 200px;
+}
