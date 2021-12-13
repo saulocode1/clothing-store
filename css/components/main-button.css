@@ -1,5 +1,5 @@
 .main-button {
-    padding: 12px 0;
+    padding: 0.75rem 0;
     background-color: var(--base-color-third);
     display: inline-block;
     text-decoration: none;
@@ -11,7 +11,7 @@
     margin-right: auto;
     margin-left: auto;
     transition: 200ms linear;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .main-button:hover {
