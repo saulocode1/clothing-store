@@ -9,6 +9,7 @@
 .main-category .blouse {
     background-image: url(../../assets/category/blouse.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     border: none;
@@ -17,9 +18,11 @@
     display: flex;
     justify-content: center;
 }
+
 .main-category .dress {
     background-image: url(../../assets/category/dress.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     border: none;
@@ -28,9 +31,11 @@
     display: flex;
     justify-content: center;
 }
+
 .main-category .accessories {
     background-image: url(../../assets/category/accessories.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     border: none;
@@ -39,9 +44,11 @@
     display: flex;
     justify-content: center;
 }
+
 .main-category .others {
     background-image: url(../../assets/category/others.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     border: none;
