@@ -6,11 +6,12 @@
     border-radius: 0.1875rem;
     color: white;
     border: 0;
-    width: 8rem;
-    margin-top: 0.5rem;
+    width: 6rem;
+    margin-top: 1rem;
     margin-right: auto;
     margin-left: auto;
     transition: 200ms linear;
+    font-size: 12px;
 }
 
 .main-button:hover {
