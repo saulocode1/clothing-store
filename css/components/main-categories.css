@@ -1,4 +1,4 @@
-.main-category {
+.category {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -7,10 +7,9 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-   
 }
 
-.main-category .blouse {
+.category .blouse {
     background-image: url(../../assets/category/blouse.jpg);
     background-size: cover;
     background-position: center;
@@ -23,7 +22,7 @@
     justify-content: center;
 }
 
-.main-category .dress {
+.category .dress {
     background-image: url(../../assets/category/dress.jpg);
     background-size: cover;
     background-position: center;
@@ -36,7 +35,7 @@
     justify-content: center;
 }
 
-.main-category .accessories {
+.category .accessories {
     background-image: url(../../assets/category/accessories.jpg);
     background-size: cover;
     background-position: center;
@@ -49,7 +48,7 @@
     justify-content: center;
 }
 
-.main-category .others {
+.category .others {
     background-image: url(../../assets/category/others.jpg);
     background-size: cover;
     background-position: center;
