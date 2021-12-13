@@ -6,14 +6,47 @@
     align-items: center;
 }
 
-.main-category img {
-    height: auto;
-    width: 200px;
-    object-fit: cover;
-}
-
-.main-category .category {
+.main-category .blouse {
+    background-image: url(../../assets/category/blouse.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
     border: none;
-    height: auto;
+    height: 300px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.main-category .dress {
+    background-image: url(../../assets/category/dress.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.main-category .accessories {
+    background-image: url(../../assets/category/accessories.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.main-category .others {
+    background-image: url(../../assets/category/others.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
 }
