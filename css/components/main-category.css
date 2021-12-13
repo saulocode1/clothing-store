@@ -5,6 +5,8 @@
     gap: 1rem;
     overflow: hidden;
     align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .main-category .blouse {
@@ -27,8 +29,8 @@
     display: flex;
     align-items: center;
     border: none;
-    height: 300px;
-    width: 200px;
+    height: 18.75rem;
+    width: 12.5rem;
     display: flex;
     justify-content: center;
 }
@@ -40,8 +42,8 @@
     display: flex;
     align-items: center;
     border: none;
-    height: 300px;
-    width: 200px;
+    height: 18.75rem;
+    width: 12.5rem;
     display: flex;
     justify-content: center;
 }
@@ -53,8 +55,8 @@
     display: flex;
     align-items: center;
     border: none;
-    height: 300px;
-    width: 200px;
+    height: 18.75rem;
+    width: 12.5rem;
     display: flex;
     justify-content: center;
 }
