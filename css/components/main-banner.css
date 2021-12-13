@@ -1,9 +1,9 @@
 .main-banner {
     height: 100%;
-    padding: 50px 0;
-    background-image: url(../../assets/banner.jpg);
+    padding: 20px 0;
+    background-image: url(../../assets/banner4.jpg);
     background-size: cover;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Manrope", sans-serif;
 }
 
@@ -12,7 +12,6 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
-    text-shadow: 2px 2px 5px black;
 }
 
 .main-banner .subtitle {
@@ -20,18 +19,20 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
-    text-shadow: 2px 2px 5px black;
 }
 
 .main-banner .wrapper {
     display: grid;
-    padding-left: 1.563rem;
-    text-align: left;
-    gap: 0.2rem;
+    text-align: center;
+    gap: 0.3rem;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .main-banner .line {
     height: 1px;
     background-color: rgba(255, 255, 255, 0.61);
-    width: 100px;
+    width: 190px;
+    display: flex;
+    margin: auto;
 }

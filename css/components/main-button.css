@@ -1,9 +1,19 @@
 .main-button {
-    padding: 14px 26px;
+    padding: 12px 0;
     background-color: var(--base-color-third);
     display: inline-block;
     text-decoration: none;
     border-radius: 0.1875rem;
-    color: var(--base-color-first);
+    color: white;
     border: 0;
+    width: 8rem;
+    margin-top: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 200ms linear;
+}
+
+.main-button:hover {
+    background-color: var(--base-color-fourth);
+    transition: 200ms linear;
 }
