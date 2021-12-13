@@ -8,17 +8,18 @@
 }
 
 .main-banner .title {
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
 }
 
 .main-banner .subtitle {
-    font-weight: 200;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
+    font-size: 16px;
 }
 
 .main-banner .wrapper {
