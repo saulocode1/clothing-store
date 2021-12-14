@@ -1,7 +1,14 @@
 .main-title {
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 2px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
+}
+
+.main-title.second {
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: .5rem;
+
 }
