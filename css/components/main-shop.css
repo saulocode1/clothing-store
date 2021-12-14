@@ -1,3 +1,7 @@
+.main-shop {
+    text-align: center;
+}
+
 .shop.-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -14,12 +18,12 @@
     height: auto;
 }
 
-.main-shop .caption{
-    font-size: .8rem;
+.main-shop .caption {
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
 .main-shop .price {
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: 400;
 }
