@@ -1,4 +1,4 @@
-.category {
+.category.-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -10,7 +10,7 @@
 }
 
 .category .blouse {
-    background-image: url(../../assets/category/blouse2.jpg);
+    background-image: url(../../assets/category/blouse.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -23,7 +23,7 @@
 }
 
 .category .dress {
-    background-image: url(../../assets/category/dress2.jpg);
+    background-image: url(../../assets/category/dress.jpg);
     background-size: cover;
     background-position: center;
     display: flex;

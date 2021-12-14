@@ -1,0 +1,25 @@
+.shop.-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.8rem;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-shop .figure img {
+    width: 10rem;
+    height: auto;
+}
+
+.main-shop .caption{
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.main-shop .price {
+    font-size: .7rem;
+    font-weight: 400;
+}
