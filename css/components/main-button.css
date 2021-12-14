@@ -12,6 +12,7 @@
     margin-left: auto;
     transition: 200ms linear;
     font-size: 0.75rem;
+    text-align: center;
 }
 
 .main-button:hover {
@@ -19,3 +20,13 @@
     transition: 200ms linear;
 }
 
+.main-button.second {
+    margin: 1.2rem 0; 
+    padding: 0.75rem 0;
+    width: 11rem;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: .8rem;
+}
