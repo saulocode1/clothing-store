@@ -1,0 +1,1 @@
+alert("Site em construção! Apenas versão mobile disponível.")
