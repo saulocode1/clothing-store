@@ -9,6 +9,11 @@
 .main-title.second {
     text-align: left;
     font-weight: 500;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
+}
 
+@media (min-width: 1200px) {
+    .main-section .main-title {
+        font-size: 1.6rem;
+    }
 }

@@ -1,3 +1,10 @@
+.main-categories {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .category.-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -5,57 +12,64 @@
     gap: 0.8rem;
     overflow: hidden;
     align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
-.category .blouse {
+.category .box {
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 18.75rem;
+    width: 12.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.category .box.blouse {
     background-image: url(../../assets/category/blouse.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    border: none;
-    height: 18.75rem;
-    width: 12.5rem;
-    display: flex;
-    justify-content: center;
 }
 
-.category .dress {
+.category .box.dress {
     background-image: url(../../assets/category/dress.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    border: none;
-    height: 18.75rem;
-    width: 12.5rem;
-    display: flex;
-    justify-content: center;
 }
 
-.category .accessories {
+.category .box.accessories {
     background-image: url(../../assets/category/accessories.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    border: none;
-    height: 18.75rem;
-    width: 12.5rem;
-    display: flex;
-    justify-content: center;
 }
 
-.category .others {
+.category .box.others {
     background-image: url(../../assets/category/others.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    border: none;
-    height: 18.75rem;
-    width: 12.5rem;
-    display: flex;
-    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    .category.-grid {
+        display: flex;
+        gap: 1.5rem;
+    }
+    
+    .category .box {
+        width: 17.2rem;
+        height: 27.75rem;
+        background-position: top;
+    }
+
+    .category .box.blouse {
+        background-image: url(../../assets/category/blouse-big.jpg);
+    }
+
+    .category .box.dress {
+        background-image: url(../../assets/category/dress-big.jpg);
+    }
+
+    .category .box.accessories {
+        background-image: url(../../assets/category/accessories-big.jpg);
+    }
+
+    .category .box.others {
+        background-image: url(../../assets/category/others-big.jpg);
+    }
 }
