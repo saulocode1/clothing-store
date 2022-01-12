@@ -5,6 +5,7 @@
     background-image: url(../../assets/banner.jpg);
     background-size: cover;
     font-family: "Manrope", sans-serif;
+    background-repeat: no-repeat;
 }
 
 .main-banner .title {
@@ -40,22 +41,17 @@
 }
 
 @media (min-width: 1200px) {
+    .main-banner {
+        height: 25vh;
+        background-position-y: -450px;
+        background-repeat: no-repeat;
+        padding: 1.5rem 0;
+    }
     .main-banner .title {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .main-banner .subtitle {
-        font-size: 1rem;
-    }
-
-    .main-categories {
-        padding: 3rem 0;
-    }
-
-    .main-categories .category {
-        padding: 2rem 0;
-        display: flex;
-        flex-direction: row;
-        gap: 5rem;
+        font-size: 1.1rem;
     }
 }
