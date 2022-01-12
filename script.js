@@ -1,1 +1,1 @@
-alert("Site em construção! Apenas versão mobile disponível.")
+// alert("Site em construção! Apenas versão mobile disponível.")
