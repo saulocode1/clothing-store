@@ -6,6 +6,8 @@
     background-size: cover;
     font-family: "Manrope", sans-serif;
     background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
 }
 
 .main-banner .title {
