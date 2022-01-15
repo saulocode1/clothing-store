@@ -30,3 +30,14 @@
     font-size: 0.7rem;
     font-weight: 400;
 }
+
+@media (min-width: 1200px) {
+    .shop.-grid {
+        display: flex;
+    }
+
+    .main-shop .figure img {
+        width: 15rem;
+        height: auto;
+    }
+}
