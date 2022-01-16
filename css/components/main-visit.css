@@ -1,29 +1,30 @@
 .main-visit {
     padding: 2.5rem 1rem;
-
 }
 
 .main-visit .text {
-    font-size: .9rem;
+    font-size: 0.9rem;
     text-transform: none;
 }
 
 .main-visit .icon-whatsapp {
-    padding-right: .4rem;
+    padding-right: 0.4rem;
     font-size: 1rem;
 }
 
-.main-visit .icon-phone, .icon-map-pin, .icon-mail {
+.main-visit .icon-phone,
+.icon-map-pin,
+.icon-mail {
     color: var(--base-color-fourth);
-    padding-right: .5rem;
+    padding-right: 0.5rem;
     font-size: 1rem;
 }
 
 .contact-wrapper {
     grid-template-rows: 1fr 1fr 1fr;
-    gap: .7rem;
+    gap: 0.7rem;
     display: grid;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 500;
     align-items: center;
 }
@@ -31,4 +32,16 @@
 .contact-wrapper p {
     align-items: center;
     display: flex;
+}
+
+@media (min-width: 1200px) {
+    .main-visit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .main-visit .main-title {
+        margin-bottom: 1rem;
+    }
 }
